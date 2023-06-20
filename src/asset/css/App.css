@@ -14,8 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  background-color: white;
+  min-height: 76vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +37,16 @@
     transform: rotate(360deg);
   }
 }
+
+.App-body {
+  /* background-color: #282c34; */
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
